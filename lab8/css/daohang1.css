@@ -1,0 +1,47 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#titlediv{
+	background-image: url(../image/left_nav_title.gif);
+	background-repeat: no-repeat;
+	width: 190px;
+	height: 50px;
+	color: white;
+	text-align: center;
+    background-position: 8px 10px;
+    line-height: 70px;
+
+}
+ul{
+	list-style-image: url(../image/left_cur.gif); 
+	background-image: url(../image/left_nav_txt.gif);
+	width: 190px;
+	height: 120px;
+	background-position: 8px 10px;
+}
+ul li{
+	width: 190px;
+	margin-left: 40px;
+	height: 30px;
+	padding-top: 10px;
+	background-image: url(../image/left_nav_item.gif);
+	background-repeat: no-repeat;
+	background-position: -3em 90%;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+.checked{
+	color: red;
+	font-size: 18px;
+}
+#footerdiv{
+	background-image: url(../image/left_nav_bottom.gif);
+	background-repeat: no-repeat;
+	width: 190px;
+	height: 50px;
+	margin-left: 8px;
+
+}

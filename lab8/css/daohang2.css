@@ -1,0 +1,67 @@
+/*.menu{
+	background-image: url(../image/bj.png);
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 380px;
+}
+.toperdiv{
+	background-image: url(../image/header.png);
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 65px;
+}
+ul li{
+	height: 46px;
+	
+	background-image: url(../image/baibiaoti.png);
+	
+	background-repeat: no-repeat;
+	line-height: 35px;
+	text-align: center;
+	color: gray;
+	margin-right: 35px;
+	list-style-type: none;
+}
+#special{
+	background-image: url(../image/lvbiaoti.png);
+	background-repeat: no-repeat;
+	margin-right: 35px;
+	line-height: 35px;
+	color: white;
+    
+}
+*/
+.menu{
+	background-image: url(../image/bj.png);
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 380px;
+}
+.toperdiv{
+	background-image: url(../image/header.png);
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 65px;
+}
+ul li{
+	height: 46px;
+	
+	background-image: url(../image/baibiaoti.png);
+	
+	background-repeat: no-repeat;
+	line-height: 35px;
+	text-align: center;
+	color: gray;
+	margin-right: 120px;
+	background-position: -20px 0px;
+	list-style-type: none;
+}
+#special{
+	background-image: url(../image/lvbiaoti.png);
+	background-repeat: no-repeat;
+	margin-right: 120px;
+	line-height: 35px;
+	color: white;
+	background-position: -20px 0px;
+    
+}
