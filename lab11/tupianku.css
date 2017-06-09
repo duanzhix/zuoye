@@ -1,0 +1,30 @@
+.image img{
+	display: inline;
+	margin:3px;
+	border:1px solid #bebebe; 
+	width: 200px;
+	height: 160px;
+}
+
+.image{
+	float: left;
+	border:1px solid #bebebe; 
+	width: 208px;
+	height: 200px;
+	margin:3px;
+	opacity: 0.5;
+}
+div:hover{
+	opacity: 1;
+	
+	
+
+}
+img:hover{
+	border:1px solid #333333; 
+}
+.desc{
+	text-align:center; 
+	font-size: 12px;
+
+}
