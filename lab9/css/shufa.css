@@ -1,0 +1,329 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+	
+}
+body{
+	background-image: url(../images/bodybg.gif);
+    list-style: none;
+    text-decoration:none; 
+    font-size: 12px;
+	color: #522a06;
+	font-family: '宋体'；   
+}
+
+
+.header{
+	height: 205px;
+	width: 1300px;
+	background-image: url(../images/bg.gif);
+	background-position: center top;
+	position: relative;
+	background-size: 1700px 165px;
+
+}
+.banner{
+	width: 1300px;
+	height: 138px;
+	padding-top: 28px;	
+	padding-left: 185px;
+	
+}
+
+
+
+
+.nav{
+	background-image: url(../images/nav.jpg);
+	width: 1300px;
+	height: 40px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li{
+	float: left;
+	font-weight: 700;
+	color:#fff;
+	line-height: 40px;
+	margin-right: 3px;
+}
+.nav ul li a:hover{
+	color: #f9f603;
+	text-decoration:none; 
+}
+#shouye{
+	margin-left: 185px;
+	color: #f9f603;
+}
+.text{
+	width: 140px;
+	height: 17px;
+	background-color: #f8f5ee;
+	margin-left: 100px;
+	margin-top: 8px;
+    
+}
+.sousuo{
+	width: 44px;
+	height: 21px;
+	background-color: #000;
+	color: #fff;
+	border:1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #f8f5ee;
+	
+	
+	margin-left: -3px;
+}
+
+.contant{
+	
+	width: 1000px;
+	height: 700px;
+	margin:0px auto;
+	clear: both;
+    
+}
+.top{
+	width: 1000px;
+	height: 250px;
+	overflow: hidden;
+}
+.top1{
+	width: 290px;
+	height: 250px;
+	background-image: url(../images/news_bg.png);
+	background-repeat: no-repeat;
+	background-size: 290px 230px;
+	margin-top: 20px;
+	margin-left: 35px;
+	padding: 5px 10px 0px 10px;
+	float: left;
+	overflow: hidden;
+
+
+
+}
+.top1 img{
+	width: 270px;
+	height: 200px;
+	
+}
+.top1 p{
+	text-align:center;
+	line-height: 22px; 
+	
+    color:#522a06;
+    }	
+	
+.top2{
+	width: 330px;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 0px;
+	float: left;
+	
+	
+
+}
+.top2 li{
+	list-style-position: inside;
+    font-size: 12px;
+    font-family: '宋体'；
+    color:#522a06;	
+    line-height: 28px;
+   
+}
+.change{
+	width: 250px;
+	height: 28px;
+}
+.you{
+	float: right;
+	height: 25px;
+}
+.top3{
+	width: 270px;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	
+}
+.board{
+	width: 115px;
+	height: 25px;
+	margin: auto;
+
+}
+.kong{
+	width: 270px;
+	height: 15px;
+}
+.liebiao{
+	background-image: url(../images/board_bg.png);
+	background-size: 270px 183px;
+	margin-top: 10px;
+	
+}
+.top3 li{
+    list-style-position: inside;
+    line-height: 28px;
+}
+.left1{
+	width: 320px;
+	height: 250px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.academic{
+	background-image: url(../images/academic.png);
+	width: 320px;
+	height: 54px; 
+	background-repeat: no-repeat;
+	
+}
+.more1{
+	float: right;
+	padding-top: 8px;
+}
+.left1 ul li{
+	line-height: 30px;
+}
+
+
+.left2{
+	width: 320px;
+	height: 250px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.academic2{
+	background-image: url(../images/book_news.png);
+	width: 320px;
+	height: 54px; 
+	background-repeat: no-repeat;
+	
+}
+.more2{
+	float: right;
+	padding-top: 8px;
+}
+.left2 ul li{
+	line-height: 30px;
+}
+
+.left3{
+	width: 670px;
+	height: 250px;
+	float: left;
+	margin-left: 10px;
+	margin-top: -30px;
+	clear: both;
+}
+.academic3{
+	background-image: url(../images/fengcai_bg1.png);
+	width: 670px;
+	height: 57px; 
+	margin-top: -20px;
+	background-repeat: no-repeat;
+	
+	
+}
+.more3{
+	float: right;
+	padding-top: 8px;
+}
+.fengcaibg{
+	background-image: url(../images/fengcai_bg2.png);
+	width: 650px;
+	height: 176px;
+	border:1px solid;
+}
+.tu{
+	float: left;
+	margin-top: 20px;
+	margin-right: 4px;
+}
+#tu1{
+	margin-left: 15px;
+}
+
+.right{
+	width: 270px;
+	height: 410px;
+	border:1px solid;
+
+	float: right;
+    margin-right: 27px;
+	margin-top: -250px;
+
+}
+.mingjias{
+	width: 270px;
+	height: 30px;
+	padding-left: 80px;
+
+}
+.mingjiax{
+	width: 270px;
+	height: 380px;
+	background-image: url(../images/show_bg.png);
+	background-size: 270px 370px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+
+}
+.laotou{
+	width: 225px;
+	height: 210px;
+	padding-top: 20px;
+}
+.zi{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#ouyang{
+	color: #cc0000;
+	font-weight: 700;
+}
+.zi p{
+	line-height: 20px;
+}
+.gengduo{
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.footer{
+	width: 1300px;
+	height: 100px;
+	
+	margin-top: 50px;
+	
+	background-image: url(../images/foot.gif);
+}
+.footer ul{
+	list-style-type: none;
+}
+.footer ul li{
+	float: left;
+	font-weight: 700;
+
+
+
+}
+.foot1{
+    padding-left: 400px;
+}
+.foot2{
+	padding-left: 370px;
+	margin-top: 25px;
+}
+.footer p{
+	text-align:center; 
+	line-height: 25px;
+}
