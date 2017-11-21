@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mi</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    body{
+	    	background-image: url("bj.png");
+	    	background-repeat: repeat;
+	    }
+
+		#one{
+             width: 250px;
+             height: 610px;
+            
+             float: left;
+
+         
+		}
+		#two{
+		width: 1050px;
+			height: 610px;
+			
+            margin-left: 270px;
+		}
+        .li{
+        	float: left;
+            width: 250px;
+            height: 300px;
+            background-color: white;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        #zhe1{
+        	margin-left:80px; 
+        	
+        	width: 75px;
+        	height: 18px;
+        	background-color: red;
+        	text-align: center;
+            color: white;
+
+        }
+        .tu{
+        	width: 180px;
+        	height: 190px;
+        	margin-left: 40px;
+
+        	
+        }
+        
+    
+        .zi1{
+        	
+        	font-size: 90%;
+        text-align: center;
+        	
+        }
+        
+        .jia {
+        	height: 40px;
+        	width: 50px;
+        	color:#ee7700;
+        	font-size: 250%;
+        	padding-top: 10px;
+        	float: left;
+          margin-left: 80px;
+
+               
+          
+          
+        }
+        .hua{
+          width: 50px;
+          float: left;
+           height: 40px;
+           font-size: 250%;
+           color: grey;
+           padding-top: 10px;
+           text-decoration: line-through;
+        
+        }
+      .kong{
+      	width: 75px;
+        	height: 18px;
+      }
+      #xinping{
+      	margin-left:80px; 
+        	
+        	width: 75px;
+        	height: 18px;
+        	background-color: #00dd77;
+        	text-align: center;
+            color: white;
+      }
+      .zuihou {
+      	width: 250px;
+      	height: 140px;
+      	
+      	
+      }
+      .hezi{
+      	margin-bottom: 10px;
+      	width: 250px;
+      	height: 160px;
+      	background-image: url(bj.png);
+      	background-repeat: repeat;
+      }
+      .zi2{
+        padding-top: 12px;
+              font-size: 40%;
+              text-align: center;
+              color: grey;
+             display: block;
+           
+             width: 250px;
+             height: 75px;
+
+        }
+      .zi2gai{
+      	  width: 250px;
+             height: 75px;
+      	display: none;
+      }
+      .subMenuShow{
+      	 padding-top: 12px;
+      	  width: 250px;
+             height: 75px;
+      	background-color: #ff7744;
+      	color: white;
+      	text-align: center;
+          width: 250px;
+             height: 75px;
+       
+      
+
+      }
+  
+  
+      
+
+	</style>
+	<script type="text/javascript">
+	window.onload = function(){
+	
+			var bbb = document.getElementsByClassName("li");
+		for (var i=0; i<bbb.length; i++)
+			{
+				bbb[i].onmouseover = function(){
+
+					this.children[3].className = "zi2gai";}
+					
+				bbb[i].onmouseout = function(){
+					this.children[3].className = "zi2";
+					
+				}
+			}
+				
+	
+		}
+
+	</script>
+</head>
+<body>
+
+<div id="one">  <img src="1.jpg" style="width: 250px; height: 610px;"> </div>
+
+<div id="two"> 
+    <div class="li">
+    	
+    		<div id="zhe1">享9折</div>
+    		<div ><img src="2.jpg" class="tu"></div>
+    		<div class="zi1" >小米电视4A 32"</div>
+    		
+            <div class="zi2"> 
+            	64位四核处理器 / 1GB+4GB大内存<br>
+                <div class="jia" >999元</div>  <div class="hua">  1199元</div>
+               </div>
+            <div class="subMenuShow">听说小米客服满腹经纶，能不能为在下对副对联</div>
+    	
+    </div>
+    <div class="li" >
+ 
+        <div class="kong"></div>
+    	<div ><img src="3.png" class="tu" ></div>
+    	<div class="zi1" >小米电视4A 49英寸 标准版</div>
+    	<div class="zi2" >2GB+8GB 大存储 / 全高清HDR<br>
+            <div class="jia" >2399元</div>  
+    	    </div>
+    	<div class="subMenuShow">房子刚修好，还没装修</div>
+   
+    </div>
+    <div class="li">
+    	<div id="xinping">新品</div>
+    	<div ><img src="4.jpg" class="tu" ></div>
+    	<div class="zi1" >小米笔记本Pro 15.6英寸</div>
+    	<div class="zi2" >全金属强化机身/FHD全贴合屏幕<br>
+            <div class="jia" >5599元</div>  
+    	</div>
+    	<div class="subMenuShow">听说小米客服满腹经纶，能不能为在下对副对联</div>
+    </div>
+    <div class="li">
+    	 <div class="kong"></div>
+    	<div ><img src="5.jpg" class="tu" ></div>
+    	<div class="zi1" >小米笔记本Air 13.3" i7处理器</div>
+    	<div class="zi2" >Intel酷睿i7处理器，8GB内存+256GB<br>
+            <div class="jia" >5699元</div>  <div class="hua">  5999元</div>
+    	</div>
+    	<div class="subMenuShow">听说小米客服满腹经纶，能不能为在下对副对联</div>
+    </div>
+    <div class="li">
+    	 <div id="zhe1">享9.5折</div>
+    	<div ><img src="6.jpg" class="tu" ></div>
+    	<div class="zi1" >米家恒温电水壶</div>
+    	<div class="zi2" >水温智能控制，304不锈钢内胆<br>
+            <div class="jia" >189元</div>  <div class="hua">  199元</div>
+    	</div>
+    	<div class="subMenuShow">听说小米客服满腹经纶，能不能为在下对副对联</div>
+    </div>
+    <div class="li">
+    	<div id="xinping">新品</div>
+    	<div ><img src="7.jpg" class="tu" ></div>
+    	<div class="zi1" >智米全直流变频空调</div>
+    	<div class="zi2" >一级能效，强劲冷暖<br>
+            <div class="jia" >4399元</div>  
+    	</div>
+    	<div class="subMenuShow">听说小米客服满腹经纶，能不能为在下对副对联</div>
+    </div>
+    <div class="li">
+    	<div class="kong"></div>
+    	<div ><img src="8.jpg" class="tu" ></div>
+    	<div class="zi1" >小米净水器（厨上式） 增强版</div>
+    	<div class="zi2" >400加仑大流量，纯水更多，废水更少<br>
+            <div class="jia" >1499元</div>  
+    	</div>
+    	<div class="subMenuShow">听说小米客服满腹经纶，能不能为在下对副对联</div>
+    </div>
+    <div class="li">
+    	<div  class="hezi">
+    		<img src="9.png" class="zuihou">
+    	</div>
+    	<div >
+    		<img src="10.png" class="zuihou">
+    	</div>
+    </div>
+    
+</div>
+</body>
+</html>
